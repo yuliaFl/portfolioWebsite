@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+  background-color: #6D6D64;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  z-index: 100; /* This property ensures the navbar stays on top of other content */
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  margin: 0; /* Remove default margin for ul */
+  padding: 0; /* Remove default padding for ul */
+}
+
+.nav-links li {
+  /* Apply some styling to list items for better visual appearance */
+  padding: 8px;
+  
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Adding some spacing to the main content so it's not hidden behind the navbar */
+main {
+  margin-top: 80px; /* Adjust this value based on your navbar height */
+}
+
+.homepage{
+  padding-top: 200px;
+  justifyContent: 'center';
+  alignItems: 'center';
+  height: '100vh';
+}
+
+.contact{
+  padding-top: 100px;
+  padding-bottom: 300px;
+  justifyContent: 'center';
+  alignItems: 'center';
+  height: '100vh';
+}
