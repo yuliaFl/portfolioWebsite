@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #9BC1AA;
+  background-color: #E7E8D1;
 }
 
 .App-header {
@@ -15,15 +15,13 @@
 
 .navbar {
   position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
-  background-color: #9BC1AA;
+  background-color: #E7E8D1;
   color: #fff;
-  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 12px;
+  text-align: right;
   z-index: 100; /* This property ensures the navbar stays on top of other content */
 }
 .nav-links {
@@ -31,7 +29,8 @@
   display: flex;
   gap: 16px;
   margin: 0; /* Remove default margin for ul */
-  padding: 0; /* Remove default padding for ul */
+  padding: 0 50px 0 0; /* Remove default padding for ul */
+  float: right;
 }
 
 .nav-links li {
@@ -41,7 +40,7 @@
 }
 
 .nav-links li a {
-  color: #fff;
+  color:#8AA893;
   text-decoration: none;
 }
 
@@ -56,6 +55,8 @@ main {
   justifyContent: 'center';
   alignItems: 'center';
   height: '100vh';
+  font-family: Monaco ;
+  color: #B85042;
 }
 
 .about{
@@ -69,12 +70,12 @@ main {
 .cardStyle {
   justifyContent: 'center';
   alignItems: 'center';
-  border: 2px solid #fff;
+  border: 2px solid #A7BEAE;
   padding: 5px;
   max-width: 800px;
   border-radius: 20px;
   position: relative;
-  margin-left: 15%;
+  margin-left: 20%;
   margin-right: 15%;
   margin-bottom: 10px;
 }
@@ -97,9 +98,12 @@ main {
   height: '100vh';
   justifyContent: 'center';
   alignItems: 'center';
-  background-color: #749882;
+  background-color: #D5D7AF;
 }
 
+.Projects-Header{
+  color: #B85042;;
+}
 
 .contact{
   padding-top: 60px;
@@ -107,4 +111,5 @@ main {
   justifyContent: 'center';
   alignItems: 'center';
   height: '100vh';
+  
 }

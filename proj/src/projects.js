@@ -3,7 +3,9 @@ import Card from "react-bootstrap/Card";
 const Projects = () => {
   return (
     <div id='Projects' className="projects">
+      <div className="Projects-Header">
       <h1>My Projects</h1>
+      </div>
       <br></br>
       <div className="cardStyle">
         <Card>
@@ -11,8 +13,7 @@ const Projects = () => {
           <Card.Body>
             <Card.Title>moneyTrack</Card.Title>
             <Card.Text>
-              Personal ReactNative project to track and store server income.
-              Will save input data to MongoDB.{" "}
+              ReactNative project to track and store server income{" "}
             </Card.Text>
           </Card.Body>
         </Card>
@@ -22,7 +23,7 @@ const Projects = () => {
           <Card.Header as="h5">Personal</Card.Header>
           <Card.Body>
             <Card.Title>Random meal generator</Card.Title>
-            <Card.Text>Generate proteins, garnishes, or full meals </Card.Text>
+            <Card.Text>A fun little project when i got tiered of always thinking what to cook. Generate proteins, garnishes, or full meals </Card.Text>
           </Card.Body>
         </Card>
       </div>
