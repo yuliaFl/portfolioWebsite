@@ -2,7 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 const Projects = () => {
   return (
-    <div className="projects">
+    <div id='Projects' className="projects">
       <h1>My Projects</h1>
       <br></br>
       <div className="cardStyle">

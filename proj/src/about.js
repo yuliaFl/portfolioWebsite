@@ -1,7 +1,7 @@
 import React from 'react';
 const About = () => {
   return (
-    <div className='about' >
+    <div id='About' className='about' >
       <p>text</p>
     </div>
   );

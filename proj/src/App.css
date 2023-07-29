@@ -74,7 +74,9 @@ main {
   max-width: 800px;
   border-radius: 20px;
   position: relative;
-  left: 15%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 10px;
 }
 
 .card-group-horizontal {
@@ -83,9 +85,10 @@ main {
   justify-content: space-between; /* You can change this to adjust the spacing between cards */
 }
 
-img {
+.footerLinkImg{
   width: 50px;
   height: 50px; 
+  padding: 12px;
 }
 
 .projects{
