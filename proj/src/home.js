@@ -1,9 +1,21 @@
 import React from 'react';
+import { TypeAnimation } from 'react-type-animation';
+
 const Home = () => {
   return (
     <div id='Home'className='homepage' >
-      <h1> Hello, I'm Yulia</h1>
-      <h2> Get to know me and my coding journey</h2>
+    <TypeAnimation
+      sequence={[
+        'Hello, Im Yulia',
+        1000, 
+        'Get to know me and my coding journey',
+        1000
+      ]}
+      wrapper="span"
+      speed={50}
+      style={{ fontSize: '2em', display: 'inline-block' }}
+      repeat={0}
+    />
     </div>
   );
 };
