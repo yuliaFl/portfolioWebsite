@@ -65,6 +65,10 @@ main {
   justifyContent: 'center';
   alignItems: 'center';
   height: '100vh';
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: Monaco ;
+  
 }
 
 .cardStyle {
