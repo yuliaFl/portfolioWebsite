@@ -79,8 +79,8 @@ main {
   max-width: 800px;
   border-radius: 20px;
   position: relative;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 20%;
+  margin-right: 20%;
   margin-bottom: 10px;
 }
 
@@ -103,10 +103,14 @@ main {
   justifyContent: 'center';
   alignItems: 'center';
   background-color: #D5D7AF;
+  font-family: Monaco ;
 }
 
 .Projects-Header{
-  color: #B85042;;
+  color: #B85042;
+}
+.About-Header{
+  color: #B85042;
 }
 
 .contact{
