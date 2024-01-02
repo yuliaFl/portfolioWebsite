@@ -3,35 +3,35 @@ const About = () => {
   return (
     <div id="About" className="about">
       <div className="About-Header">
-      <h1>About me</h1>
+        <h1>About me</h1>
       </div>
       <p>
-        My coding experience began back in grade 10, when I took a computer
-        engineering course. I quickly figured out that hardware was not for me,
-        but the coding part of getting a robot to avoid light, attack or turn
-        around when hit a wall is much more interseting. I then took a coding
-        course, working with Java. As a final project working with Java and GUI,
-        i remade my parents childhood game of a wolf catching eggs.
+        I started coding in 10th grade when I took a computer engineering
+        course. I realized I wasn't into hardware, but I found coding, like
+        making a robot react to light or navigate around obstacles, more
+        interesting. I then took a coding class, working with Java. For my final
+        project, I used Java and GUI to recreate my parents' childhood game of a
+        wolf catching eggs.
       </p>
       <p>
-        i took the engeneering course once again where as a team we build an
-        automated animal feader. Building the frame from screacth, using motors,
-        arduino, and making an app to control the feeder via blootooth. After
-        highschool I chose to go into Police Foundations, but found myself
-        working on the game in borning lectures. I decided to finish the diploma
-        and go back to school for computer programming.{" "}
+        I took the engineering course again and, as a team, we built an
+        automated animal feeder from scratch, using motors, Arduino, and
+        creating a Bluetooth app to control it. After high school, despite going
+        into Police Foundations, I found myself coding during boring lectures. I
+        decided to finish the diploma and go back to school for computer
+        programming.{" "}
       </p>
       <p>
-        I am currently in my last year of computer progamming at Humber College.
-        Humber gave me a feel for Java, SpringBoot, React, ReactNative, manual
-        and automated testing. As well, a feel for project management, working
-        with agile and waterfall methedologies, and undersetanding how to work
+        Now, I'm in my last year at Humber College, getting hands-on experience
+        with Java, SpringBoot, React, ReactNative, Python, PL/SQL and manual and
+        automated testing. I've also learned about project management, working
+        with Agile and Waterfall methodologies, and understanding how to work
         with SCRUM.{" "}
       </p>
       <p>
-        Putting everything Humber has given me I am working on personal projects
-        to practice React, and ReacNative. I also very curious of learning more
-        about C# and.Net.
+        Using what I've learned at Humber, I'm working on personal projects to
+        practice React and ReactNative. I'm also curious about learning more
+        about C# and .NET.
       </p>
     </div>
   );

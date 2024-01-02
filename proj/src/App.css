@@ -59,30 +59,28 @@ main {
   color: #B85042;
 }
 
-.about{
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   padding-top: 100px;
-  padding-bottom: 300px;
-  justifyContent: 'center';
-  alignItems: 'center';
-  height: '100vh';
+  padding-bottom: 50px;
   margin-left: 20%;
   margin-right: 20%;
-  font-family: Monaco ;
-  
+  font-family: Monaco;
 }
 
 .cardStyle {
-  justifyContent: 'center';
-  alignItems: 'center';
-  border: 2px solid #A7BEAE;
-  padding: 5px;
+  border: 2px solid #a7beae;
+  padding: 15px;
   max-width: 800px;
   border-radius: 20px;
   position: relative;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-bottom: 10px;
+  margin: 15px auto; /* Center the card horizontally with auto margin */
 }
+
 
 .card-group-horizontal {
   display: flex;

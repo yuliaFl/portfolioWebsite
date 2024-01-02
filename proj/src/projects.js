@@ -13,9 +13,10 @@ const Projects = () => {
           <Card.Body>
             <Card.Title>Random meal generator</Card.Title>
             <Card.Text>
-              A fun little project when i got tiered of always thinking what to
-              cook. Generate proteins, garnishes, or full meals. Option to add
-              personal preferenced foods and categorize them
+              A fun side project I started when I got tired of deciding what to
+              cook. It helps generate ideas for proteins, garnishes, or whole
+              meals. You can also add your favorite foods and sort them into
+              categories
             </Card.Text>
           </Card.Body>
         </Card>
@@ -28,15 +29,6 @@ const Projects = () => {
             <Card.Text>
               A start of a ReactNative project to track and store server income
             </Card.Text>
-          </Card.Body>
-        </Card>
-      </div>
-      <div className="cardStyle">
-        <Card>
-          <Card.Header as="h5">Personal</Card.Header>
-          <Card.Body>
-            <Card.Title>Resunet</Card.Title>
-            <Card.Text>Personal project to learn C# and .NET</Card.Text>
           </Card.Body>
         </Card>
       </div>
@@ -103,3 +95,15 @@ const Projects = () => {
 };
 
 export default Projects;
+
+/*
+      <div className="cardStyle">
+        <Card>
+          <Card.Header as="h5">Personal</Card.Header>
+          <Card.Body>
+            <Card.Title>Resunet</Card.Title>
+            <Card.Text>Personal project to learn C# and .NET</Card.Text>
+          </Card.Body>
+        </Card>
+      </div>
+      */
