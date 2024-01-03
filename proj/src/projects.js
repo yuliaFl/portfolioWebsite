@@ -5,29 +5,23 @@ const Projects = () => {
     <div id="Projects" className="projects">
       <div className="Projects-Header">
         <h1>My Projects</h1>
+        <h5>
+          Project I want to highlight, you can find more of my work on my github
+        </h5>
       </div>
       <br></br>
       <div className="cardStyle">
         <Card>
           <Card.Header as="h5">Personal</Card.Header>
           <Card.Body>
-            <Card.Title>Random meal generator</Card.Title>
+            <a href="https://github.com/yuliaFl/RandomDishGenerator_Web">
+              <Card.Title>Random meal generator</Card.Title>
+            </a>
             <Card.Text>
               A fun side project I started when I got tired of deciding what to
               cook. It helps generate ideas for proteins, garnishes, or whole
               meals. You can also add your favorite foods and sort them into
-              categories
-            </Card.Text>
-          </Card.Body>
-        </Card>
-      </div>
-      <div className="cardStyle">
-        <Card>
-          <Card.Header as="h5">Personal</Card.Header>
-          <Card.Body>
-            <Card.Title>moneyTrack</Card.Title>
-            <Card.Text>
-              A start of a ReactNative project to track and store server income
+              categories. Project is being done on both React and ReactNative
             </Card.Text>
           </Card.Body>
         </Card>
@@ -36,7 +30,9 @@ const Projects = () => {
         <Card>
           <Card.Header as="h5">College</Card.Header>
           <Card.Body>
-            <Card.Title>Movies-n-me</Card.Title>
+            <a href="https://github.com/yuliaFl/CPAN213_Movies-n-Me">
+              <Card.Title>Movies-n-me</Card.Title>
+            </a>
             <Card.Text>
               As a team built a movie searching ReactNative app. User is greater
               with a logo, and a loading bar, moving onto homepage with an
@@ -51,7 +47,27 @@ const Projects = () => {
         <Card>
           <Card.Header as="h5">College</Card.Header>
           <Card.Body>
-            <Card.Title>WordFinder</Card.Title>
+            <a href="https://github.com/yuliaFl/Python_Humber/tree/main/bookstore">
+              <Card.Title>Bookstore</Card.Title>
+            </a>
+            <Card.Text>
+              Python Django project, involving working with routes, links,
+              templates, inheritance, models, POST, and GET. Admin access is
+              provided to view all profiles and control book data. Users have
+              the option to register and log in. Once logged in, they can edit,
+              delete, and add books. If not registered or logged in, they can
+              only view the book list
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </div>
+      <div className="cardStyle">
+        <Card>
+          <Card.Header as="h5">College</Card.Header>
+          <Card.Body>
+            <a href="https://github.com/yuliaFl/CPAN144_WordFinder">
+              <Card.Title>WordFinder</Card.Title>
+            </a>
             <Card.Text>
               As a team built a customized dictionary and thesaurus React app.
               Given an input, the user can search up a word which returns a wide
@@ -65,19 +81,9 @@ const Projects = () => {
         <Card>
           <Card.Header as="h5">College</Card.Header>
           <Card.Body>
-            <Card.Title>Pizza Assignment</Card.Title>
-            <Card.Text>
-              Interactive project on JavaFX. Choose pizza toppings, size,
-              quantity
-            </Card.Text>
-          </Card.Body>
-        </Card>
-      </div>
-      <div className="cardStyle">
-        <Card>
-          <Card.Header as="h5">College</Card.Header>
-          <Card.Body>
-            <Card.Title>Distribution Center</Card.Title>
+          <a href="https://github.com/yuliaFl/SpringBootFinal">
+              <Card.Title>Distribution Center</Card.Title>
+            </a>
             <Card.Text>
               With a partner built a distribution center as a final project.
               Worked with SpringBoot, Java, Html, CSS, Bootstrap, PostgreSQL.
@@ -97,6 +103,17 @@ const Projects = () => {
 export default Projects;
 
 /*
+      <div className="cardStyle">
+        <Card>
+          <Card.Header as="h5">Personal</Card.Header>
+          <Card.Body>
+            <Card.Title>moneyTrack</Card.Title>
+            <Card.Text>
+              A start of a ReactNative project to track and store server income
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </div>
       <div className="cardStyle">
         <Card>
           <Card.Header as="h5">Personal</Card.Header>
