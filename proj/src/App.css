@@ -21,22 +21,23 @@
   justify-content: space-between;
   align-items: center;
   padding: 12px;
-  text-align: right;
-  z-index: 100; /* This property ensures the navbar stays on top of other content */
+  text-align: center;
+  z-index: 100; 
+  font-size: 22px; 
+  padding-top: 50px;
 }
 .nav-links {
   list-style: none;
   display: flex;
   gap: 16px;
-  margin: 0; /* Remove default margin for ul */
-  padding: 0 50px 0 0; /* Remove default padding for ul */
-  float: right;
+  margin: 5px;
+  padding: 0 50px 0 0;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-links li {
-  /* Apply some styling to list items for better visual appearance */
   padding: 8px;
-  
 }
 
 .nav-links li a {
@@ -44,18 +45,16 @@
   text-decoration: none;
 }
 
-/* Adding some spacing to the main content so it's not hidden behind the navbar */
 main {
-  margin-top: 80px; /* Adjust this value based on your navbar height */
+  margin-top: 80px;
 }
 
-.homepage{
+.homepage {
   padding-top: 350px;
-  padding-bottom: 300px;
-  justifyContent: 'center';
-  alignItems: 'center';
-  height: '100vh';
-  font-family: Monaco ;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Monaco;
   color: #B85042;
 }
 
@@ -65,11 +64,15 @@ main {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  padding-top: 100px;
   padding-bottom: 20px;
   margin-left: 20%;
   margin-right: 20%;
   font-family: Monaco;
+}
+
+.About-Header {
+  color: #B85042;
+  text-align: left; /* Align text to the left */
 }
 
 .cardStyle {
@@ -80,7 +83,6 @@ main {
   position: relative;
   margin: 15px auto; /* Center the card horizontally with auto margin */
 }
-
 
 .card-group-horizontal {
   display: flex;
@@ -95,7 +97,7 @@ main {
 }
 
 .projects{
-  padding-top: 50px;
+  padding-top: 120px;
   padding-bottom: 100px;
   height: '100vh';
   justifyContent: 'center';
@@ -107,15 +109,11 @@ main {
 .Projects-Header{
   color: #B85042;
 }
-.About-Header{
-  color: #B85042;
-}
 
-.contact{
+.contact {
   padding-top: 60px;
-  padding-bottom: 60px;
-  justifyContent: 'center';
-  alignItems: 'center';
-  height: '100vh';
-  
+  padding-bottom: 0px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
