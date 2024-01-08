@@ -5,14 +5,15 @@ const Projects = () => {
     <div id="Projects" className="projects">
       <div className="Projects-Header">
         <h1>My Projects</h1>
-        <h5>
-          Project I want to highlight, you can find more of my work on my github
-        </h5>
+        <h4>
+          Project I want to highlight, you can find more of my work on my{" "}
+          <a href="https://github.com/yuliaFl">github</a>.
+        </h4>
       </div>
       <br></br>
       <div className="cardStyle">
         <Card>
-          <Card.Header as="h5">Personal</Card.Header>
+          <Card.Header as="h4">Personal</Card.Header>
           <Card.Body>
             <a href="https://github.com/yuliaFl/RandomDishGenerator_Web">
               <Card.Title>Random meal generator</Card.Title>
@@ -28,7 +29,7 @@ const Projects = () => {
       </div>
       <div className="cardStyle">
         <Card>
-          <Card.Header as="h5">College</Card.Header>
+          <Card.Header as="h4">College</Card.Header>
           <Card.Body>
             <a href="https://github.com/yuliaFl/CPAN213_Movies-n-Me">
               <Card.Title>Movies-n-me</Card.Title>
@@ -45,7 +46,7 @@ const Projects = () => {
       </div>
       <div className="cardStyle">
         <Card>
-          <Card.Header as="h5">College</Card.Header>
+          <Card.Header as="h4">College</Card.Header>
           <Card.Body>
             <a href="https://github.com/yuliaFl/Python_Humber/tree/main/bookstore">
               <Card.Title>Bookstore</Card.Title>
@@ -63,7 +64,7 @@ const Projects = () => {
       </div>
       <div className="cardStyle">
         <Card>
-          <Card.Header as="h5">College</Card.Header>
+          <Card.Header as="h4">College</Card.Header>
           <Card.Body>
             <a href="https://github.com/yuliaFl/CPAN144_WordFinder">
               <Card.Title>WordFinder</Card.Title>
@@ -79,9 +80,9 @@ const Projects = () => {
       </div>
       <div className="cardStyle">
         <Card>
-          <Card.Header as="h5">College</Card.Header>
+          <Card.Header as="h4">College</Card.Header>
           <Card.Body>
-          <a href="https://github.com/yuliaFl/SpringBootFinal">
+            <a href="https://github.com/yuliaFl/SpringBootFinal">
               <Card.Title>Distribution Center</Card.Title>
             </a>
             <Card.Text>

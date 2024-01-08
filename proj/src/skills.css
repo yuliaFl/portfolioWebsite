@@ -1,0 +1,78 @@
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-bottom: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: Monaco;
+  }
+  
+  .skills-header{
+    color: #B85042;
+    text-align: left; 
+    justify-content: left;
+    align-items: left;
+  }
+  .skill-buttons {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .skill-buttons button {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50%; /* Make the button circular */
+  }
+  
+  .Python {
+    position: absolute;
+    top: -80px;
+    left: -120px;
+  }
+  
+  .JavaScript {
+    position: absolute;
+    top: -88px;
+    right: -120px;
+  }
+  
+  .Java {
+    position: absolute;
+    bottom: -88px;
+    left: -120px;
+  }
+  
+  .React {
+    position: absolute;
+    top: 88px;
+    right: -120px;
+  }
+
+  .ReactNative{
+    position: absolute;
+    top: -3px;
+    right: -235px;
+  }
+
+  
+  .center {
+    /* Positioned at the center using flexbox */
+    align-self: center;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  

@@ -7,11 +7,12 @@ const About = () => {
       </div>
       <p>
         I started coding in 10th grade when I took a computer engineering
-        course. I realized I wasn't into hardware, but I found coding, like
-        making a robot react to light or navigate around obstacles, more
+        course. I quickly realized working with hardware was not for me. I found coding 
+        a robot react to light or navigate around obstacles, more
         interesting. I then took a coding class, working with Java. For my final
         project, I used Java and GUI to recreate my parents' childhood game of a
-        wolf catching eggs.
+        wolf catching eggs. I spent hours on that game, and enjoyed fixing every bug.
+        The whole coding proccess became a puzzle for me.
       </p>
       <p>
         I took the engineering course again and, as a team, we built an

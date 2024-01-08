@@ -13,6 +13,18 @@
   color: white;
 }
 
+.nav-links a {
+  color: blue; /* default color */
+  text-decoration: none; /* remove underline */
+  transition: color 0.3s ease; /* add a smooth transition effect */
+}
+
+/* Change link color when hovered over */
+.nav-links a:hover {
+  color: #B85042;
+}
+
+/* Keep the rest of your existing styles */
 .navbar {
   position: fixed;
   width: 100%;
@@ -22,10 +34,11 @@
   align-items: center;
   padding: 12px;
   text-align: center;
-  z-index: 100; 
-  font-size: 22px; 
+  z-index: 100;
+  font-size: 22px;
   padding-top: 50px;
 }
+
 .nav-links {
   list-style: none;
   display: flex;
@@ -39,6 +52,7 @@
 .nav-links li {
   padding: 8px;
 }
+
 
 .nav-links li a {
   color:#8AA893;
@@ -64,6 +78,7 @@ main {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  padding-top: 20px;;
   padding-bottom: 20px;
   margin-left: 20%;
   margin-right: 20%;
@@ -73,6 +88,8 @@ main {
 .About-Header {
   color: #B85042;
   text-align: left; /* Align text to the left */
+  justify-content: left;
+  align-items: left;
 }
 
 .cardStyle {
@@ -97,7 +114,7 @@ main {
 }
 
 .projects{
-  padding-top: 120px;
+  padding-top: 148px;
   padding-bottom: 100px;
   height: '100vh';
   justifyContent: 'center';
