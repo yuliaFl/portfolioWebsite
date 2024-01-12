@@ -1,14 +1,16 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
+import "./projects.css";
+
 const Projects = () => {
   return (
     <div id="Projects" className="projects">
       <div className="Projects-Header">
         <h1>My Projects</h1>
-        <h4>
-          Project I want to highlight, you can find more of my work on my{" "}
-          <a href="https://github.com/yuliaFl">github</a>.
-        </h4>
+          <h4>
+            Project I want to highlight, you can find more of my work on my{" "}
+            <a href="https://github.com/yuliaFl">github</a>.
+          </h4>
       </div>
       <br></br>
       <div className="cardStyle">
@@ -18,7 +20,7 @@ const Projects = () => {
             <a href="https://github.com/yuliaFl/RandomDishGenerator_Web">
               <Card.Title>Random meal generator</Card.Title>
             </a>
-            <Card.Text>
+            <Card.Text className="cardText">
               A fun side project I started when I got tired of deciding what to
               cook. It helps generate ideas for proteins, garnishes, or whole
               meals. You can also add your favorite foods and sort them into
@@ -34,7 +36,7 @@ const Projects = () => {
             <a href="https://github.com/yuliaFl/CPAN213_Movies-n-Me">
               <Card.Title>Movies-n-me</Card.Title>
             </a>
-            <Card.Text>
+            <Card.Text className="cardText">
               As a team built a movie searching ReactNative app. User is greater
               with a logo, and a loading bar, moving onto homepage with an
               option of register, login in, or guest. Once logged in, has option
@@ -51,7 +53,7 @@ const Projects = () => {
             <a href="https://github.com/yuliaFl/Python_Humber/tree/main/bookstore">
               <Card.Title>Bookstore</Card.Title>
             </a>
-            <Card.Text>
+            <Card.Text className="cardText">
               Python Django project, involving working with routes, links,
               templates, inheritance, models, POST, and GET. Admin access is
               provided to view all profiles and control book data. Users have
@@ -69,7 +71,7 @@ const Projects = () => {
             <a href="https://github.com/yuliaFl/CPAN144_WordFinder">
               <Card.Title>WordFinder</Card.Title>
             </a>
-            <Card.Text>
+            <Card.Text className="cardText">
               As a team built a customized dictionary and thesaurus React app.
               Given an input, the user can search up a word which returns a wide
               range of data to provide a comprehensive result about the
@@ -85,7 +87,7 @@ const Projects = () => {
             <a href="https://github.com/yuliaFl/SpringBootFinal">
               <Card.Title>Distribution Center</Card.Title>
             </a>
-            <Card.Text>
+            <Card.Text className="cardText">
               With a partner built a distribution center as a final project.
               Worked with SpringBoot, Java, Html, CSS, Bootstrap, PostgreSQL.
               User has a choice to login as an admin, guest, manager. Admin

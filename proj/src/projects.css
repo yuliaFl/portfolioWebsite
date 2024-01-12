@@ -1,0 +1,29 @@
+.projects {
+    padding-top: 90px;
+    padding-bottom: 100px;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #d5d7af;
+    font-family: Monaco;
+  }
+  
+  .Projects-Header {
+    color: #b85042;
+    text-align: center; 
+  }
+
+  .cardText {
+    padding: 20px; 
+  }
+  
+  .cardStyle {
+    border: 2px solid #a7beae;
+    max-width: 800px;
+    border-radius: 20px;
+    position: relative;
+    justify-content: center; 
+    align-items: center; 
+    margin: 0 auto; 
+    margin-bottom: 20px; 
+  }
+  

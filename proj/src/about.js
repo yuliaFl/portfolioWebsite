@@ -30,9 +30,9 @@ const About = () => {
         with SCRUM.{" "}
       </p>
       <p>
-        Using what I've learned at Humber, I'm working on personal projects to
-        practice React and ReactNative. I'm also curious about learning more
-        about C# and .NET.
+        Currently I'm completing my last course of networking at Humber. 
+        In my free time I'm working on a React course taught by Udemy.
+        After completing the React course, I'm curious to learning touch on C# and .NET.
       </p>
     </div>
   );

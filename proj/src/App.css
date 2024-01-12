@@ -12,49 +12,6 @@
   color: white;
 }
 
-.nav-links a {
-  color: blue; 
-  text-decoration: none; 
-  transition: color 0.3s ease; 
-}
-
-.nav-links a:hover {
-  color: #B85042;
-}
-
-.navbar {
-  position: fixed;
-  width: 100%;
-  background-color: #E7E8D1;
-  color: #fff;
-  justify-content: space-between;
-  align-items: center;
-  padding: 12px;
-  text-align: center;
-  z-index: 100;
-  font-size: 22px;
-  padding-top: 50px;
-}
-
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 16px;
-  margin: 5px;
-  padding: 0 50px 0 0;
-  justify-content: center;
-  align-items: center;
-}
-
-.nav-links li {
-  padding: 8px;
-}
-
-.nav-links li a {
-  color:#8AA893;
-  text-decoration: none;
-}
-
 main {
   margin-top: 80px;
 }
@@ -79,6 +36,7 @@ main {
   margin-left: 10%;
   margin-right: 10%;
   font-family: Monaco;
+  padding-top:90px;
 }
 
 .About-Header {
@@ -88,47 +46,10 @@ main {
   align-items: left;
 }
 
-.cardStyle {
-  border: 2px solid #a7beae;
-  padding: 15px;
-  max-width: 800px;
-  border-radius: 20px;
-  position: relative;
-  margin: 15px auto; 
-  margin-left: 10%;
-  margin-right: 10%;
-  justify-content: center;
-  align-items: center;
-}
-
-.card-group-horizontal {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; 
-  justify-content: center;
-  align-items: center;
-}
-
 .footerLinkImg{
   width: 50px;
   height: 50px; 
   padding: 12px;
-}
-
-.projects{
-  padding-top: 30px;
-  padding-bottom: 100px;
-  justifyContent: 'center';
-  alignItems: 'center';
-  background-color: #D5D7AF;
-  font-family: Monaco ;
-  
-}
-
-.Projects-Header{
-  color: #B85042;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 .contact {
