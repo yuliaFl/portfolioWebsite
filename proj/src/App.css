@@ -4,16 +4,18 @@
 }
 
 .App-header {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 main {
   margin-top: 80px;
+  margin-left: 20px; 
+  margin-right: 20px;
 }
 
 .homepage {
@@ -39,12 +41,6 @@ main {
   padding-top:90px;
 }
 
-.About-Header {
-  color: #B85042;
-  text-align: left; /* Align text to the left */
-  justify-content: left;
-  align-items: left;
-}
 
 .footerLinkImg{
   width: 50px;

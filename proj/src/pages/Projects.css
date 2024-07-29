@@ -5,6 +5,7 @@
     align-items: center; 
     background-color: #d5d7af;
     font-family: Monaco;
+    margin-bottom: 25px;
   }
   
   .Projects-Header {
@@ -27,3 +28,12 @@
     margin-bottom: 20px; 
   }
   
+  .cards{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .projectsDescription{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
