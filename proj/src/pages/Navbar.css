@@ -45,6 +45,7 @@
   
     .nav-links {
       gap: 10px;
+      margin-left: 50px;
     }
   
     .nav-links li a {
@@ -62,6 +63,7 @@
   
     .nav-links {
       gap: 10px;
+      margin-left: 50px;
     }
   
     .nav-links li a {
@@ -71,19 +73,39 @@
   
   @media (max-width: 430px) {
     .navbar {
-      font-size: 16px;
+      font-size: 20px;
       padding: 5px;
       top: 25px;
-      max-width: 65%;
+      max-width: 100%;
     }
   
     .nav-links {
       gap: 6px;
+      margin-left: 50px;
     }
   
     .nav-links li a {
       padding: 6px;
     }
   }
+
+  @media (max-width: 375px) {
+    .navbar {
+      font-size: 20px;
+      padding: 5px;
+      top: 25px;
+      max-width: 100%;
+    }
+  
+    .nav-links {
+      gap: 6px;
+      margin-left: 50px;
+    }
+  
+    .nav-links li a {
+      padding: 6px;
+    }
+  }
+  
   
   
