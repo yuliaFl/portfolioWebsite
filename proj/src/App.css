@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  background-color: #E7E8D1;
 }
 
 .App-header {
@@ -18,38 +17,3 @@ main {
   margin-right: 20px;
 }
 
-.homepage {
-  padding-top: 350px;
-  justify-content: center;
-  align-items: center;
-  font-family: Monaco;
-  color: #B85042;
-  padding-bottom: 350px;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.about {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 50px;
-  margin-left: 10%;
-  margin-right: 10%;
-  font-family: Monaco;
-  padding-top:90px;
-}
-
-
-.footerLinkImg{
-  width: 50px;
-  height: 50px; 
-  padding: 12px;
-}
-
-.contact {
-  padding-bottom: 40px;
-  justify-content: center;
-  align-items: center;
-}

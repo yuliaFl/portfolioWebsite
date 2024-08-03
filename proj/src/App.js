@@ -1,34 +1,30 @@
-import React from "react";
-import { BrowserRouter as Router } from 'react-router-dom';
 import "./App.css";
-import './index.css';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Home from './pages/Home';
-import Navbar from './pages/Navbar';
-import Projects from './pages/Projects';
+import React from "react";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Projects from "./pages/Projects";
+import Navbar from "./pages/Navbar";
 
 function App() {
   return (
-    <Router>
       <div className="App">
         <Navbar />
         <div className="content">
-          <section id="home">
+          <div id="Home">
             <Home />
-          </section>
-          <section id="about">
+          </div>
+          <div id="About">
             <About />
-          </section>
-          <section id="projects">
+          </div>
+          <div id="Projects">
             <Projects />
-          </section>
-          <section id="contact">
+          </div>
+          <div id="Contact">
             <Contact />
-          </section>
+          </div>
         </div>
       </div>
-    </Router>
   );
 }
 

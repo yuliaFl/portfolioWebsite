@@ -1,9 +1,10 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
+import '../styles/Home.css';
 
 function Home() {
   return (
-    <div id='Home'className='homepage' >
+    <div id='home' className='home-background' >
     <TypeAnimation
       sequence={[
         'Hello, Im Yulia',

@@ -1,0 +1,192 @@
+.proj-background {
+  background: #adbbda;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  z-index: 100;
+  font-size: 15px;
+}
+
+.proj-background .proj-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 20px;
+  max-width: 70%;
+  font-size: 20px;
+}
+
+.proj-background .title {
+  color: #3d52a0;
+  font-weight: bold;
+  font-size: 36px; /* Increased for better visibility */
+  margin-bottom: 20px;
+}
+
+.cardText {
+  padding: 20px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three cards per row for large screens */
+  gap: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.cardStyle {
+  border: 2px solid #3d52a0;
+  border-radius: 20px;
+  padding: 15px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Extra small devices (phones, < 576px) */
+@media (max-width: 575.98px) {
+  .proj-background {
+    height: auto;
+    font-size: 13px;
+  }
+
+  .proj-background .proj-content {
+    padding: 15px;
+    max-width: 100%;
+    font-size: 18px;
+  }
+
+  .proj-background .title {
+    font-size: 24px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr; /* One card per row */
+    gap: 10px;
+    width: 95%;
+  }
+
+  .cardStyle {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
+/* Small devices (tablets, 576px to 767.98px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .proj-background {
+    height: auto;
+    font-size: 14px;
+  }
+
+  .proj-background .proj-content {
+    padding: 18px;
+    max-width: 90%;
+    font-size: 19px;
+  }
+
+  .proj-background .title {
+    font-size: 28px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr 1fr; /* Two cards per row */
+    gap: 12px;
+    width: 100%;
+  }
+
+  .cardStyle {
+    padding: 5px;
+    font-size: 15px;
+  }
+}
+
+/* Medium devices (desktops, 768px to 991.98px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .proj-background {
+    height: auto;
+    font-size: 15px;
+  }
+
+  .proj-background .proj-content {
+    padding: 20px;
+    max-width: 80%;
+    font-size: 20px;
+  }
+
+  .proj-background .title {
+    font-size: 32px;
+  }
+
+  .cards {
+    grid-template-columns: repeat(2, 1fr); /* Three cards per row */
+    gap: 15px;
+    width: 100%;
+  }
+
+  .cardStyle {
+    padding: 5px;
+    font-size: 16px;
+  }
+}
+
+/* Large devices (large desktops, 992px and up) */
+@media (min-width: 992px) {
+  .proj-background {
+    height: 200vh;
+    font-size: 15px;
+  }
+
+  .proj-background .proj-content {
+    padding: 20px;
+    max-width: 80%;
+    font-size: 20px;
+  }
+
+  .proj-background .title {
+    font-size: 36px;
+  }
+
+  .cards {
+    grid-template-columns: repeat(2, 1fr); /* Three cards per row */
+    gap: 15px;
+    width: 100%;
+  }
+
+  .cardStyle {
+    padding: 5px;
+    font-size: 17px;
+  }
+}
+
+
+/* Large devices (large desktops, 992px and up) */
+@media (min-width: 1100px) {
+  .proj-background {
+    height: 180vh;
+    font-size: 15px;
+  }
+
+  .proj-background .proj-content {
+    padding: 20px;
+    max-width: 80%;
+    font-size: 20px;
+  }
+
+  .proj-background .title {
+    font-size: 36px;
+  }
+
+  .cards {
+    grid-template-columns: repeat(2, 1fr); /* Three cards per row */
+    gap: 15px;
+    width: 100%;
+  }
+
+  .cardStyle {
+    padding: 5px;
+    font-size: 17px;
+  }
+}

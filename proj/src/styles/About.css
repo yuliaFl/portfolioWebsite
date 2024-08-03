@@ -1,0 +1,91 @@
+.about-background {
+    background: #ede8f5;
+    height: 80vh; /* Use vh for viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Uniform padding */
+    z-index: 100;
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  .about-background .title {
+    color: #3d52a0;
+    font-weight: bold;
+    font-size: 36px; /* Reduced size for better proportion */
+    margin-bottom: 20px; /* Increased margin for spacing */
+  }
+  
+  .about-background .about-content {
+    position: relative;
+    z-index: 2;
+    max-width: 70%;
+    font-size: 18px;
+    padding: 20px;
+  }
+  
+  /* Medium devices (tablets, 700px to 950px) */
+  @media (max-width: 950px) {
+    .about-background {
+      height: 90vh;
+    }
+  
+    .about-background .title {
+      font-size: 32px;
+    }
+  
+    .about-background .about-content {
+      max-width: 80%;
+      font-size: 16px;
+    }
+  }
+  
+  /* Small devices (tablets and phones, 600px to 700px) */
+  @media (max-width: 700px) {
+    .about-background {
+      height: 100vh;
+    }
+  
+    .about-background .title {
+      font-size: 28px;
+    }
+  
+    .about-background .about-content {
+      max-width: 85%;
+      font-size: 15px;
+    }
+  }
+  
+  /* Extra small devices (phones, 375px to 600px) */
+  @media (max-width: 600px) {
+    .about-background {
+      height: 90vh;
+    }
+  
+    .about-background .title {
+      font-size: 24px;
+    }
+  
+    .about-background .about-content {
+      max-width: 90%;
+      font-size: 14px;
+    }
+  }
+  
+  /* Ultra small devices (small phones, < 375px) */
+  @media (max-width: 375px) {
+    .about-background {
+      height: 80vh;
+    }
+  
+    .about-background .title {
+      font-size: 20px;
+    }
+  
+    .about-background .about-content {
+      max-width: 95%;
+      font-size: 13px;
+    }
+  }
+  

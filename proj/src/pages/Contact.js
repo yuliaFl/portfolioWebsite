@@ -1,12 +1,10 @@
 import React from "react";
-function Contact() {
-  const handleClick = (event) => {
-    console.log(event.target);
-  };
+import '../styles/Contact.css';
 
+function Contact() {
   console.log("Image clicked");
   return (
-    <div id="Contact" className="contact">
+    <div id='contact'className="contact-background">
       <a href="https://www.linkedin.com/in/yulia-fln/">
         <img
           src={"https://cdn-icons-png.flaticon.com/512/61/61109.png"}
