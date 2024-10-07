@@ -45,12 +45,13 @@ function Projects() {
                       <Card.Title>Trana-solutinos.com</Card.Title>
                     </a>
                     <Card.Text className="cardText">
-                      This React-built website from scratch for a financial
-                      startup. Focuses on delivering a smooth and user-friendly
-                      experience. So far its biggest features are intuitive
-                      navigation for easy access, interactive elements like a
-                      map that enlarges on hover, sliding navbar, and external
-                      links. Project is in the works!
+                      Website for Trana Solutions. Built entirely from scratch
+                      using React, and it’s fully optimized for a seamless user
+                      experience across all devices. Navbar transitions to
+                      transparent as you scroll. Utilized DigitalOcean and SSH to
+                      ensure the site is secure and live. Clean,
+                      user-friendly, and professional design that aligns with
+                      Trana Solutions’ services. 
                     </Card.Text>
                   </Card.Body>
                 </Card>
