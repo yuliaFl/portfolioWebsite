@@ -1,23 +1,17 @@
-.about-background {
-    background: #ede8f5;
-    height: 80vh; /* Use vh for viewport height */
+.about-container{
+    font-size: 1.2rem;
+    line-height: 1.6;
+    padding: 1.5rem;
+    color: #5C4033;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    padding: 20px; /* Uniform padding */
-    z-index: 100;
-    font-size: 15px;
+    border-radius: 12px;
+    max-width: 900px;
     text-align: center;
-  }
-  
-  .about-background .title {
-    color: #3d52a0;
-    font-weight: bold;
-    font-size: 36px; /* Reduced size for better proportion */
-    margin-bottom: 20px; /* Increased margin for spacing */
-  }
-  
-  .about-background .about-content {
+}
+
+   .about-content {
     position: relative;
     z-index: 2;
     max-width: 70%;

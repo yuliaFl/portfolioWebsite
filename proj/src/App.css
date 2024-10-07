@@ -8,7 +8,6 @@
   flex-direction: column;
   align-items: flex-start;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 main {
@@ -17,3 +16,40 @@ main {
   margin-right: 20px;
 }
 
+body {
+  background-color:#FFFAF0;
+}
+
+.container {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  max-width: 900px;
+  text-align: center;
+  color: #5C4033;
+}
+
+.background {
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center; /* Initially center for smaller screens */
+  align-items: center;
+  padding: 2rem;
+  font-size: 1rem;
+  position: relative;
+  z-index: 100;
+  text-align: center;
+}
+
+.title {
+  padding-top: 90px;
+    color:#6A5D48 ;
+    font-weight: bold;
+    font-size: 36px; /* Reduced size for better proportion */
+    margin-bottom: 20px; /* Increased margin for spacing */
+  }

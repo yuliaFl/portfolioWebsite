@@ -1,13 +1,13 @@
 .contact-background{
-    background: #EDE8F5;
-    height: 20svh;
+  height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1px;
     z-index: 100;
-    font-size: 15px;
+    font-size: 1rem;
 }
+
 
 .footerLinkImg{
     width: 50px;
@@ -15,7 +15,7 @@
     padding: 12px;
   }
   
-  .contact {
+.contact-container {
     padding-bottom: 40px;
     justify-content: center;
     align-items: center;

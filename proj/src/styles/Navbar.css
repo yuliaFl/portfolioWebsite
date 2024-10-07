@@ -1,8 +1,4 @@
-.nav-links a:hover {
-    color: #B85042;
-}
-
-.navbar {
+.navbar-background{
     position: fixed;
     top: 25px;
     left: 50%;
@@ -13,13 +9,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px; /* Space between links */
     padding: 1px;
     z-index: 100;
-    font-size: 30px;
     border-radius: 20px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    font-size: 30px;
     margin-top: 25px;
+    color:#D2B48C ;
+    height: 80px;
+    z-index: 999; /* Sits above other elements */
+    box-sizing: border-box;
+    position: fixed;
 }
+
+.navbar-background ul {
+  display: flex; /* Makes the links in one row */
+  justify-content: center; /* Centers the links inside the navbar */
+  align-items: center; /* Aligns them vertically */
+  margin: 0; /* Resets default margins */
+  padding: 0; /* Resets default padding */
+}
+
 
 .nav-links {
     list-style: none;
@@ -31,81 +42,52 @@
     align-items: center;
 }
 
-.nav-links li a {
-    color: #3D52A0;
-    text-decoration: none;
-    padding: 8px;
+.navbar-background li {
+  list-style: none; /* Removes bullets from list items */
+  margin: 0 15px; /* Adds spacing between links */
 }
-@media (max-width: 1024px) {
-    .navbar {
-      font-size: 25px;
-      padding: 10px;
-      top: 25px;
-    }
-  
-    .nav-links {
-      gap: 10px;
-      margin-left: 50px;
-    }
-  
-    .nav-links li a {
-      padding: 7px;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .navbar {
-      font-size: 22px;
-      padding: 5px;
-      top: 25px;
-      max-width: 80%;
-    }
-  
-    .nav-links {
-      gap: 10px;
-      margin-left: 50px;
-    }
-  
-    .nav-links li a {
-      padding: 6px;
-    }
-  }
-  
-  @media (max-width: 430px) {
-    .navbar {
-      font-size: 20px;
-      padding: 5px;
-      top: 25px;
-      max-width: 100%;
-    }
-  
-    .nav-links {
-      gap: 6px;
-      margin-left: 50px;
-    }
-  
-    .nav-links li a {
-      padding: 6px;
-    }
+
+.navbar-background a {
+  text-decoration: none; /* Removes the underline */
+  color: inherit; /* Inherits color from parent */
+}
+
+@media (max-width: 900px) {
+  .navbar-background {
+    max-width: 60%; /* Increases max width to fill more of the screen */
+    font-size: 25px; /* Reduces the font size */
+    padding: 5px; /* Adds more padding for smaller screens */
+    gap: 10px; /* Reduces the space between links */
+    height: 60px; /* Reduces the height */
+    margin-top: 10px; /* Adjusts the top margin for a better layout */
   }
 
-  @media (max-width: 375px) {
-    .navbar {
-      font-size: 20px;
-      padding: 5px;
-      top: 25px;
-      max-width: 100%;
-    }
-  
-    .nav-links {
-      gap: 6px;
-      margin-left: 50px;
-    }
-  
-    .nav-links li a {
-      padding: 6px;
-    }
+  .nav-links {
+    gap: 10px; /* Reduces gap between links */
+    padding: 0 20px; /* Adjusts padding */
   }
-  
-  
-  
+
+  .navbar-background li {
+    margin: 0 10px; /* Reduces spacing between links */
+  }
+}
+
+@media (max-width: 700px) {
+  .navbar-background {
+    max-width: 100%; /* Increases max width to fill more of the screen */
+    font-size: 25px; /* Reduces the font size */
+    padding: 5px; /* Adds more padding for smaller screens */
+    gap: 10px; /* Reduces the space between links */
+    height: 60px; /* Reduces the height */
+    margin-top: 10px; /* Adjusts the top margin for a better layout */
+  }
+
+  .nav-links {
+    gap: 10px; /* Reduces gap between links */
+    padding: 0 20px; /* Adjusts padding */
+  }
+
+  .navbar-background li {
+    margin: 0 10px; /* Reduces spacing between links */
+  }
+}

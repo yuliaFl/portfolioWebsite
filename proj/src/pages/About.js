@@ -3,8 +3,9 @@ import "../styles/About.css";
 
 function About() {
   return (
-    <div id='about' className="about-background">
-      <div className="about-content">
+    <div id='about'>
+    <div className="background">
+    <div className="about-container">
         <div className="title">About me</div>
         <div className="content">
           I started coding in 10th grade when I took a computer engineering
@@ -41,6 +42,7 @@ function About() {
           day, my goal is to work towards being a fullstack developer.
         </div>
       </div>
+    </div>
     </div>
   );
 }

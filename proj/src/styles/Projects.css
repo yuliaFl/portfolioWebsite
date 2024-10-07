@@ -1,28 +1,3 @@
-.proj-background {
-  background: #adbbda;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 5px;
-  z-index: 100;
-  font-size: 15px;
-}
-
-.proj-background .proj-content {
-  position: relative;
-  z-index: 2;
-  text-align: center;
-  padding: 20px;
-  max-width: 70%;
-  font-size: 20px;
-}
-
-.proj-background .title {
-  color: #3d52a0;
-  font-weight: bold;
-  font-size: 36px; /* Increased for better visibility */
-  margin-bottom: 20px;
-}
 
 .cardText {
   padding: 20px;
@@ -38,7 +13,7 @@
 }
 
 .cardStyle {
-  border: 2px solid #3d52a0;
+  border: 2px solid #D2B48C ;
   border-radius: 20px;
   padding: 15px;
   text-align: center;
