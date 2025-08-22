@@ -6,18 +6,21 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+    align-items: center;   /* center horizontally */
+  justify-content: center; /* optional: vertical centering */
   font-size: calc(10px + 2vmin);
 }
 
 main {
   margin-top: 80px;
-  margin-left: 20px; 
-  margin-right: 20px;
+  margin-left: auto;   /* 👈 auto centers instead of pushing */
+  margin-right: auto; 
+  max-width: 1000px;   /* optional: keeps text from spanning entire screen */
+  width: 100%;
 }
 
 body {
-  background-color:#FFFAF0;
+  background-color:#ffffff;
 }
 
 .container {
@@ -30,7 +33,7 @@ body {
   border-radius: 12px;
   max-width: 900px;
   text-align: center;
-  color: #5C4033;
+  color: #201c1c;
 }
 
 .background {
@@ -48,7 +51,7 @@ body {
 
 .title {
   padding-top: 90px;
-    color:#6A5D48 ;
+    color:#201c1c;
     font-weight: bold;
     font-size: 36px; /* Reduced size for better proportion */
     margin-bottom: 20px; /* Increased margin for spacing */

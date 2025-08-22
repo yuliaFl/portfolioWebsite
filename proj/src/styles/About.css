@@ -2,22 +2,25 @@
     font-size: 1.2rem;
     line-height: 1.6;
     padding: 1.5rem;
-    color: #5C4033;
+    color: #201c1c;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 12px;
     max-width: 900px;
     text-align: center;
+  margin: 0 auto;  /* centers the block in its parent */
 }
 
-   .about-content {
-    position: relative;
-    z-index: 2;
-    max-width: 70%;
-    font-size: 18px;
-    padding: 20px;
-  }
+.about-content {
+  text-align: center;      /* centers text inside */
+  max-width: 700px;        /* keeps paragraphs from stretching too wide */
+  width: 100%;             /* makes sure it takes available space */
+  margin: 0 auto;          /* centers the block itself */
+  display: flex;           /* optional, ensures children are centered */
+  flex-direction: column;
+  align-items: center;
+}
   
   /* Medium devices (tablets, 700px to 950px) */
   @media (max-width: 950px) {

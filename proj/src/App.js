@@ -9,8 +9,7 @@ import Navbar from "./pages/Navbar";
 function App() {
   return (
       <div className="App">
-        <Navbar />
-        <div className="content">
+         <div className="content">
           <div id="Home">
             <Home />
           </div>
