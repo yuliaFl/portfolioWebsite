@@ -66,20 +66,24 @@ function About() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.8 }}
         >
-          Currently I'm completing online courses on Udemy to grow my knowledge
-          in Python and React. I created a freelance website for a
+         I’ve now created two freelance websites for companies that are actively used today,
+        and I’m now working on a larger project where I can apply both my frontend and backend skills. You can check out 
           <a
-            href="http://www.fixiths.ca/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 underline hover:text-blue-800 ml-1"
-          >
-            Handyman
+          href="https://trana-solutions.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 underline hover:text-blue-800 ml-1">
+           Trana-Solutions 
           </a>
-          . I'm also curious to touch on C# and .NET. With the experience and
-          interests I have to this day, my goal is to work towards being a
-          fullstack developer.
+          . My second project, Fixiths, is temporarily unavailable, but you can still find screenshots and detailed feature descriptions in my projects section.
+
         </motion.p>
+
+        <motion.p
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.8 }}
+        >With the experience I’ve gained and the interests I continue to pursue, my goal is to grow into a full-stack developer.</motion.p>
       </div>
        </div>
     </section>
