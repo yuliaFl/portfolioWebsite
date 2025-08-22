@@ -1,8 +1,10 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import "../styles/Projects.css";
+import { useNavigate } from "react-router-dom";
 
 function Projects() {
+  const navigate = useNavigate();
   return (
     <div id="projects">
       <div className="background">
@@ -19,9 +21,29 @@ function Projects() {
                 <Card>
                   <Card.Header as="h4">Freelance</Card.Header>
                   <Card.Body>
-                    <a href="http://www.fixiths.ca/">
-                      <Card.Title>Fixiths.ca</Card.Title>
-                    </a>
+                    <div style={{ textAlign: "center", marginTop: "40px" }}>
+                      <button
+                        onClick={() => navigate("/Fixiths")}
+                        style={{
+                          backgroundColor: "#D6C6B8", // soft nude
+                          color: "#4B3F36", // darker brown text
+                          padding: "12px 24px",
+                          border: "none",
+                          borderRadius: "8px",
+                          cursor: "pointer",
+                          fontSize: "16px",
+                          transition: "background-color 0.2s",
+                        }}
+                        onMouseOver={(e) =>
+                          (e.currentTarget.style.backgroundColor = "#CBB6A6")
+                        }
+                        onMouseOut={(e) =>
+                          (e.currentTarget.style.backgroundColor = "#D6C6B8")
+                        }
+                      >
+                        Fixiths.com
+                      </button>
+                    </div>
                     <Card.Text className="cardText">
                       This handyman service website, built from scratch using
                       React, offering a seamless and user-friendly experience.
@@ -41,17 +63,37 @@ function Projects() {
                 <Card>
                   <Card.Header as="h4">Freelance</Card.Header>
                   <Card.Body>
-                    <a href="https://trana-solutions.com/">
-                      <Card.Title>Trana-solutinos.com</Card.Title>
-                    </a>
+                    <div style={{ textAlign: "center", marginTop: "40px" }}>
+                      <button
+                        onClick={() => navigate("/Trana-Solutions")}
+                        style={{
+                          backgroundColor: "#D6C6B8", // soft nude
+                          color: "#4B3F36", // darker brown text
+                          padding: "12px 24px",
+                          border: "none",
+                          borderRadius: "8px",
+                          cursor: "pointer",
+                          fontSize: "16px",
+                          transition: "background-color 0.2s",
+                        }}
+                        onMouseOver={(e) =>
+                          (e.currentTarget.style.backgroundColor = "#CBB6A6")
+                        }
+                        onMouseOut={(e) =>
+                          (e.currentTarget.style.backgroundColor = "#D6C6B8")
+                        }
+                      >
+                        Trana-solutinos.com
+                      </button>
+                    </div>
                     <Card.Text className="cardText">
                       Website for Trana Solutions. Built entirely from scratch
                       using React, and it’s fully optimized for a seamless user
                       experience across all devices. Navbar transitions to
-                      transparent as you scroll. Utilized DigitalOcean and SSH to
-                      ensure the site is secure and live. Clean,
+                      transparent as you scroll. Utilized DigitalOcean and SSH
+                      to ensure the site is secure and live. Clean,
                       user-friendly, and professional design that aligns with
-                      Trana Solutions’ services. 
+                      Trana Solutions’ services.
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -60,9 +102,29 @@ function Projects() {
                 <Card>
                   <Card.Header as="h4">College</Card.Header>
                   <Card.Body>
-                    <a href="https://github.com/yuliaFl/CPAN213_Movies-n-Me">
-                      <Card.Title>Movies-n-me</Card.Title>
-                    </a>
+                    <div style={{ textAlign: "center", marginTop: "40px" }}>
+                      <button
+                        onClick={() => navigate("/MoviesNMe")}
+                        style={{
+                          backgroundColor: "#D6C6B8", // soft nude
+                          color: "#4B3F36", // darker brown text
+                          padding: "12px 24px",
+                          border: "none",
+                          borderRadius: "8px",
+                          cursor: "pointer",
+                          fontSize: "16px",
+                          transition: "background-color 0.2s",
+                        }}
+                        onMouseOver={(e) =>
+                          (e.currentTarget.style.backgroundColor = "#CBB6A6")
+                        }
+                        onMouseOut={(e) =>
+                          (e.currentTarget.style.backgroundColor = "#D6C6B8")
+                        }
+                      >
+                        Movies-n-me
+                      </button>
+                    </div>
                     <Card.Text className="cardText">
                       As a team built a movie searching ReactNative app. User is
                       greater with a logo, and a loading bar, moving onto
@@ -78,9 +140,29 @@ function Projects() {
                 <Card>
                   <Card.Header as="h4">College</Card.Header>
                   <Card.Body>
-                    <a href="https://github.com/yuliaFl/CPAN144_WordFinder">
-                      <Card.Title>WordFinder</Card.Title>
-                    </a>
+                    <div style={{ textAlign: "center", marginTop: "40px" }}>
+                      <button
+                        onClick={() => navigate("/MoviesNMe")}
+                        style={{
+                          backgroundColor: "#D6C6B8", // soft nude
+                          color: "#4B3F36", // darker brown text
+                          padding: "12px 24px",
+                          border: "none",
+                          borderRadius: "8px",
+                          cursor: "pointer",
+                          fontSize: "16px",
+                          transition: "background-color 0.2s",
+                        }}
+                        onMouseOver={(e) =>
+                          (e.currentTarget.style.backgroundColor = "#CBB6A6")
+                        }
+                        onMouseOut={(e) =>
+                          (e.currentTarget.style.backgroundColor = "#D6C6B8")
+                        }
+                      >
+                        WordFinder
+                      </button>
+                    </div>
                     <Card.Text className="cardText">
                       As a team built a customized dictionary and thesaurus
                       React app. Given an input, the user can search up a word
@@ -95,9 +177,29 @@ function Projects() {
                 <Card>
                   <Card.Header as="h4">College</Card.Header>
                   <Card.Body>
-                    <a href="https://github.com/yuliaFl/Python_Humber/tree/main/bookstore">
-                      <Card.Title>Bookstore</Card.Title>
-                    </a>
+                    <div style={{ textAlign: "center", marginTop: "40px" }}>
+                      <button
+                        onClick={() => navigate("/MoviesNMe")}
+                        style={{
+                          backgroundColor: "#D6C6B8", // soft nude
+                          color: "#4B3F36", // darker brown text
+                          padding: "12px 24px",
+                          border: "none",
+                          borderRadius: "8px",
+                          cursor: "pointer",
+                          fontSize: "16px",
+                          transition: "background-color 0.2s",
+                        }}
+                        onMouseOver={(e) =>
+                          (e.currentTarget.style.backgroundColor = "#CBB6A6")
+                        }
+                        onMouseOut={(e) =>
+                          (e.currentTarget.style.backgroundColor = "#D6C6B8")
+                        }
+                      >
+                        BookStore
+                      </button>
+                    </div>
                     <Card.Text className="cardText">
                       Python Django project, involving working with routes,
                       links, templates, inheritance, models, POST, and GET.
@@ -114,9 +216,29 @@ function Projects() {
                 <Card>
                   <Card.Header as="h4">Personal</Card.Header>
                   <Card.Body>
-                    <a href="https://github.com/yuliaFl/RandomDishGenerator_Web">
-                      <Card.Title>Random meal generator</Card.Title>
-                    </a>
+                    <div style={{ textAlign: "center", marginTop: "40px" }}>
+                      <button
+                        onClick={() => navigate("/MoviesNMe")}
+                        style={{
+                          backgroundColor: "#D6C6B8", // soft nude
+                          color: "#4B3F36", // darker brown text
+                          padding: "12px 24px",
+                          border: "none",
+                          borderRadius: "8px",
+                          cursor: "pointer",
+                          fontSize: "16px",
+                          transition: "background-color 0.2s",
+                        }}
+                        onMouseOver={(e) =>
+                          (e.currentTarget.style.backgroundColor = "#CBB6A6")
+                        }
+                        onMouseOut={(e) =>
+                          (e.currentTarget.style.backgroundColor = "#D6C6B8")
+                        }
+                      >
+                        Random meal generator
+                      </button>
+                    </div>
                     <Card.Text className="cardText">
                       A fun side project I started when I got tired of deciding
                       what to cook. It helps generate ideas for proteins,
