@@ -65,7 +65,7 @@ function Projects() {
                   <Card.Body>
                     <div style={{ textAlign: "center", marginTop: "40px" }}>
                       <button
-                        onClick={() => navigate("/Trana-Solutions")}
+                        onClick={() => navigate("/TranaSolutions")}
                         style={{
                           backgroundColor: "#D6C6B8", // soft nude
                           color: "#4B3F36", // darker brown text

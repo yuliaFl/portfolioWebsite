@@ -22,11 +22,25 @@
   color: #201c1c;
 }
 
-/* Title + Description */
 .fixiths-title {
-  margin: 2rem 0 1rem 0;  /* balanced spacing */
-  font-size: 2rem;
-  color: #201c1c;
+  margin: 2.5rem 0 1.5rem 0;   /* balanced top/bottom spacing */
+  font-size: 2.25rem;          /* slightly larger */
+  font-weight: 500;            /* bolder for emphasis */
+  color: #201c1c;              /* main color */
+  letter-spacing: 0.5px;       /* subtle spacing for readability */
+  text-align: center;          /* centered alignment */
+  position: relative;          /* for decorative underline */
+}
+
+/* Decorative underline */
+.fixiths-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #201c1c;
+  margin: 0.75rem auto 0;      /* spacing below title */
+  border-radius: 2px;
 }
 
 .fixiths-description {

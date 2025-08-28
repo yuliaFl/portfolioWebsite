@@ -1,0 +1,37 @@
+
+/* Back Arrow */
+.back-arrow {
+  position: absolute;
+  top: 2.8rem;            /* aligns with title */
+  left: 0;                /* aligned with container edge */
+  transform: translateX(-120%); /* sits outside neatly */
+  font-size: 24px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.back-arrow:hover {
+  color: #201c1c;
+}
+
+.trana-title {
+  margin: 2.5rem 0 1.5rem 0;   /* balanced top/bottom spacing */
+  font-size: 2.25rem;          /* slightly larger */
+  font-weight: 500;            /* bolder for emphasis */
+  color: #201c1c;              /* main color */
+  letter-spacing: 0.5px;       /* subtle spacing for readability */
+  text-align: center;          /* centered alignment */
+  position: relative;          /* for decorative underline */
+}
+
+/* Decorative underline */
+.trana-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #201c1c;
+  margin: 0.75rem auto 0;      /* spacing below title */
+  border-radius: 2px;
+}

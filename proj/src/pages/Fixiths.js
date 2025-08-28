@@ -6,7 +6,7 @@ function Fixiths() {
   const navigate = useNavigate();
 
   return (
-    <div className="fixiths-container">
+    <div className="projects-container">
       <div className="back-arrow" onClick={() => navigate(-1)}>
         &#8592;
       </div>

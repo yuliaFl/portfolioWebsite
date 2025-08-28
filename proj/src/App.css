@@ -56,3 +56,11 @@ body {
     font-size: 36px; /* Reduced size for better proportion */
     margin-bottom: 20px; /* Increased margin for spacing */
   }
+
+  .projects-container {
+  max-width: 900px;       /* perfectly centered */
+  margin: 0 auto;         /* centers the whole page */
+  padding: 20px;
+  position: relative;
+  text-align: center;     /* centers the title */
+}
