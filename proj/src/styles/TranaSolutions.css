@@ -35,3 +35,9 @@
   margin: 0.75rem auto 0;      /* spacing below title */
   border-radius: 2px;
 }
+
+.video-container video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}

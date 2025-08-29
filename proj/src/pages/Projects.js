@@ -23,6 +23,45 @@ function Projects() {
                   <Card.Body>
                     <div style={{ textAlign: "center", marginTop: "40px" }}>
                       <button
+                        onClick={() => navigate("/TranaSolutions")}
+                        style={{
+                          backgroundColor: "#D6C6B8", // soft nude
+                          color: "#4B3F36", // darker brown text
+                          padding: "12px 24px",
+                          border: "none",
+                          borderRadius: "8px",
+                          cursor: "pointer",
+                          fontSize: "16px",
+                          transition: "background-color 0.2s",
+                        }}
+                        onMouseOver={(e) =>
+                          (e.currentTarget.style.backgroundColor = "#CBB6A6")
+                        }
+                        onMouseOut={(e) =>
+                          (e.currentTarget.style.backgroundColor = "#D6C6B8")
+                        }
+                      >
+                        Trana-solutinos.com
+                      </button>
+                    </div>
+                    <Card.Text className="cardText">
+                      Website for Trana Solutions. Built entirely from scratch
+                      using React, and it’s fully optimized for a seamless user
+                      experience across all devices. Navbar transitions to
+                      transparent as you scroll. Utilized DigitalOcean and SSH
+                      to ensure the site is secure and live. Clean,
+                      user-friendly, and professional design that aligns with
+                      Trana Solutions’ services.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </div>
+              <div className="cardStyle">
+                <Card>
+                  <Card.Header as="h4">Freelance</Card.Header>
+                  <Card.Body>
+                    <div style={{ textAlign: "center", marginTop: "40px" }}>
+                      <button
                         onClick={() => navigate("/Fixiths")}
                         style={{
                           backgroundColor: "#D6C6B8", // soft nude
@@ -55,45 +94,6 @@ function Projects() {
                       access to additional options. The entire site adapts to
                       different phone and screen sizes, ensuring a consistent
                       and responsive user experience.
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </div>
-              <div className="cardStyle">
-                <Card>
-                  <Card.Header as="h4">Freelance</Card.Header>
-                  <Card.Body>
-                    <div style={{ textAlign: "center", marginTop: "40px" }}>
-                      <button
-                        onClick={() => navigate("/TranaSolutions")}
-                        style={{
-                          backgroundColor: "#D6C6B8", // soft nude
-                          color: "#4B3F36", // darker brown text
-                          padding: "12px 24px",
-                          border: "none",
-                          borderRadius: "8px",
-                          cursor: "pointer",
-                          fontSize: "16px",
-                          transition: "background-color 0.2s",
-                        }}
-                        onMouseOver={(e) =>
-                          (e.currentTarget.style.backgroundColor = "#CBB6A6")
-                        }
-                        onMouseOut={(e) =>
-                          (e.currentTarget.style.backgroundColor = "#D6C6B8")
-                        }
-                      >
-                        Trana-solutinos.com
-                      </button>
-                    </div>
-                    <Card.Text className="cardText">
-                      Website for Trana Solutions. Built entirely from scratch
-                      using React, and it’s fully optimized for a seamless user
-                      experience across all devices. Navbar transitions to
-                      transparent as you scroll. Utilized DigitalOcean and SSH
-                      to ensure the site is secure and live. Clean,
-                      user-friendly, and professional design that aligns with
-                      Trana Solutions’ services.
                     </Card.Text>
                   </Card.Body>
                 </Card>
