@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
 import Navbar from "./pages/Navbar";
 import Fixiths from "./pages/Fixiths";
+import MoviesNMe from "./pages/MoviesNMe";
 import TranaSolutions from "./pages/TranaSolutions";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
@@ -39,6 +40,7 @@ function App() {
             <Route path="/" element={<MainPage />} />
             <Route path="/fixiths" element={<Fixiths />} />
             <Route path="/tranasolutions" element={<TranaSolutions />} />
+            <Route path="/movies" element={<MoviesNMe />} />
           </Routes>
          </div>
       </div>

@@ -10,9 +10,10 @@ function Fixiths() {
       <div className="back-arrow" onClick={() => navigate(-1)}>
         &#8592;
       </div>
-
-      <div className="fixiths-title">Fixiths.com</div>
-
+      <div className="projects-title">Fixiths.com</div>
+      <div className="forward-arrow" onClick={() => navigate("/movies")}>
+        &#8594;
+      </div>
       <div className="project-section">
         <img
           src="fixitImages/fixitHome.jpg"

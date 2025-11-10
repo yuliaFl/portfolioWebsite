@@ -1,20 +1,4 @@
 
-/* Back Arrow */
-.back-arrow {
-  position: absolute;
-  top: 2.8rem;            /* aligns with title */
-  left: 0;                /* aligned with container edge */
-  transform: translateX(-120%); /* sits outside neatly */
-  font-size: 24px;
-  cursor: pointer;
-  font-weight: 600;
-  transition: color 0.2s;
-}
-
-.back-arrow:hover {
-  color: #201c1c;
-}
-
 .trana-title {
   margin: 2.5rem 0 1.5rem 0;   /* balanced top/bottom spacing */
   font-size: 2.25rem;          /* slightly larger */
@@ -40,4 +24,44 @@
   max-width: 100%;
   height: auto;
   border-radius: 10px;
+}
+
+.trana-image {
+  width: 100%;          /* make it fill container width */
+  max-width: 800px;     /* keep it from stretching too wide on large screens */
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+@media (max-width: 600px) {
+  .trana-image {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+}
+
+.trana-project-section {
+  display: flex;
+  flex-direction: column;  /* stack items vertically */
+  align-items: center;     /* center them horizontally */
+  gap: 1.5rem;             /* space between images or text */
+  margin-bottom: 60px;
+}
+
+.visit-link {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.visit-link a {
+  color: #0a6847;             /* or your brand color */
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.visit-link a:hover {
+  color: #094f35;
+  text-decoration: underline;
 }
