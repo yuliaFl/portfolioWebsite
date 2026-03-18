@@ -41,7 +41,7 @@ function Projects() {
                           (e.currentTarget.style.backgroundColor = "#D6C6B8")
                         }
                       >
-                        Trana-solutinos.com
+                        Trana-solutions.com
                       </button>
                     </div>
                     <Card.Text className="cardText">
@@ -142,7 +142,7 @@ function Projects() {
                   <Card.Body>
                     <div style={{ textAlign: "center", marginTop: "40px" }}>
                       <button
-                        onClick={() => navigate("/MoviesNMe")}
+                        onClick={() => navigate("/WordFinder")}
                         style={{
                           backgroundColor: "#D6C6B8", // soft nude
                           color: "#4B3F36", // darker brown text
@@ -179,7 +179,7 @@ function Projects() {
                   <Card.Body>
                     <div style={{ textAlign: "center", marginTop: "40px" }}>
                       <button
-                        onClick={() => navigate("/MoviesNMe")}
+                        onClick={() => navigate("/BookStore")}
                         style={{
                           backgroundColor: "#D6C6B8", // soft nude
                           color: "#4B3F36", // darker brown text
@@ -214,11 +214,11 @@ function Projects() {
               </div>
               <div className="cardStyle">
                 <Card>
-                  <Card.Header as="h4">Personal</Card.Header>
+                  <Card.Header as="h4">College</Card.Header>
                   <Card.Body>
                     <div style={{ textAlign: "center", marginTop: "40px" }}>
                       <button
-                        onClick={() => navigate("/MoviesNMe")}
+                        onClick={() => navigate("/SecureConnection")}
                         style={{
                           backgroundColor: "#D6C6B8", // soft nude
                           color: "#4B3F36", // darker brown text
@@ -236,15 +236,11 @@ function Projects() {
                           (e.currentTarget.style.backgroundColor = "#D6C6B8")
                         }
                       >
-                        Random meal generator
+                        SecureConnection
                       </button>
                     </div>
                     <Card.Text className="cardText">
-                      A fun side project I started when I got tired of deciding
-                      what to cook. It helps generate ideas for proteins,
-                      garnishes, or whole meals. You can also add your favorite
-                      foods and sort them into categories. Project is being done
-                      on both React and ReactNative
+            
                     </Card.Text>
                   </Card.Body>
                 </Card>

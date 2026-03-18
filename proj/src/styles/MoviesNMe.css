@@ -1,0 +1,33 @@
+.reconstruction-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.reconstruction-image {
+  width: 100%;
+  max-width: 900px;   /* laptop size */
+  height: auto;
+}
+
+/* Text styling */
+.reconstruction-text {
+  margin-top: 20px;
+  color: #555;
+  font-size: 16px;
+}
+
+/* 📱 Mobile adjustments */
+@media (max-width: 600px) {
+  .reconstruction-image {
+    max-width: 100%;  /* full width on phone */
+  }
+
+  .reconstruction-text {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+}

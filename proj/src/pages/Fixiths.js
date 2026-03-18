@@ -11,7 +11,7 @@ function Fixiths() {
         &#8592;
       </div>
       <div className="projects-title">Fixiths.com</div>
-      <div className="forward-arrow" onClick={() => navigate("/movies")}>
+      <div className="forward-arrow" onClick={() => navigate("/moviesnme")}>
         &#8594;
       </div>
       <div className="project-section">

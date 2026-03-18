@@ -1,16 +1,16 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "../styles/MoviesNMe.css";
+import "../styles/SecureConnection.css";
 
-function Moviesnme() {
+function SecureConnection() {
   const navigate = useNavigate();
   return (
     <div className="projects-container">
       <div className="back-arrow" onClick={() => navigate(-1)}>
         &#8592;
       </div>
-      <div className="projects-title">Movies-N-Me</div>
-      <div className="forward-arrow" onClick={() => navigate("/BookStore")}>
+      <div className="projects-title">Secure Connection </div>
+      <div className="forward-arrow" onClick={() => navigate("/movies")}>
         &#8594;
       </div>
       <div className="reconstruction-container">
@@ -26,4 +26,4 @@ function Moviesnme() {
     </div>
   );
 }
-export default Moviesnme;
+export default SecureConnection;
