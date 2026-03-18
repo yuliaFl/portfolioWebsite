@@ -98,6 +98,39 @@ function Projects() {
                   </Card.Body>
                 </Card>
               </div>
+                       <div className="cardStyle">
+                <Card>
+                  <Card.Header as="h4">College</Card.Header>
+                  <Card.Body>
+                    <div style={{ textAlign: "center", marginTop: "40px" }}>
+                      <button
+                        onClick={() => navigate("/SecureConnection")}
+                        style={{
+                          backgroundColor: "#D6C6B8", // soft nude
+                          color: "#4B3F36", // darker brown text
+                          padding: "12px 24px",
+                          border: "none",
+                          borderRadius: "8px",
+                          cursor: "pointer",
+                          fontSize: "16px",
+                          transition: "background-color 0.2s",
+                        }}
+                        onMouseOver={(e) =>
+                          (e.currentTarget.style.backgroundColor = "#CBB6A6")
+                        }
+                        onMouseOut={(e) =>
+                          (e.currentTarget.style.backgroundColor = "#D6C6B8")
+                        }
+                      >
+                        Secure Connection Chat Python
+                      </button>
+                    </div>
+                    <Card.Text className="cardText">
+            This final partner project for Humber College’s Network Programming course uses Python and Kivy to implement a secure TCP chat system. It demonstrates skills in socket programming, multithreading, encryption concepts, and building a responsive GUI that interacts with real‑time network events.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </div>
               <div className="cardStyle">
                 <Card>
                   <Card.Header as="h4">College</Card.Header>
@@ -208,39 +241,6 @@ function Projects() {
                       Once logged in, they can edit, delete, and add books. If
                       not registered or logged in, they can only view the book
                       list
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </div>
-              <div className="cardStyle">
-                <Card>
-                  <Card.Header as="h4">College</Card.Header>
-                  <Card.Body>
-                    <div style={{ textAlign: "center", marginTop: "40px" }}>
-                      <button
-                        onClick={() => navigate("/SecureConnection")}
-                        style={{
-                          backgroundColor: "#D6C6B8", // soft nude
-                          color: "#4B3F36", // darker brown text
-                          padding: "12px 24px",
-                          border: "none",
-                          borderRadius: "8px",
-                          cursor: "pointer",
-                          fontSize: "16px",
-                          transition: "background-color 0.2s",
-                        }}
-                        onMouseOver={(e) =>
-                          (e.currentTarget.style.backgroundColor = "#CBB6A6")
-                        }
-                        onMouseOut={(e) =>
-                          (e.currentTarget.style.backgroundColor = "#D6C6B8")
-                        }
-                      >
-                        SecureConnection
-                      </button>
-                    </div>
-                    <Card.Text className="cardText">
-            
                     </Card.Text>
                   </Card.Body>
                 </Card>

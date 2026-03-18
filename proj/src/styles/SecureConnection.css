@@ -1,0 +1,8 @@
+.project-images img {
+    width: 100%;
+    max-width: 600px;   /* keeps images nicely sized on desktop */
+    height: auto;
+    display: block;
+    margin: 20px auto;  /* centers images */
+    border-radius: 8px; /* optional, makes them look polished */
+}
